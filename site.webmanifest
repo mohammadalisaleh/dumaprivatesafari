@@ -1,0 +1,21 @@
+{
+  "name": "Duma Private Safaris Tanzania",
+  "short_name": "Duma Safaris",
+  "description": "Luxury bespoke private safari experiences in Tanzania",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F5F0E8",
+  "theme_color": "#B8975A",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
