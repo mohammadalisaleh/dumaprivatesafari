@@ -18,6 +18,7 @@
   }
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { height: 100%; }
 
   body {
     font-family: 'Nunito', sans-serif;
@@ -50,7 +51,7 @@
   /* Header */
   .header {
     text-align: center;
-    margin-bottom: 48px;
+    margin-bottom: 20px;
     z-index: 10;
     position: relative;
   }
@@ -102,10 +103,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 56px;
   }
 
   .wheel-glow {
     position: absolute;
+    top: 56px;
     width: 110%;
     height: 110%;
     border-radius: 50%;
@@ -123,18 +126,18 @@
     border-radius: 50%;
   }
 
-  /* Pointer */
+  /* Pointer — hovers above wheel, tip just touches the rim */
   .pointer {
     position: absolute;
-    top: -18px;
+    top: 8px;
     left: 50%;
     transform: translateX(-50%);
     width: 0;
     height: 0;
-    border-left: 18px solid transparent;
-    border-right: 18px solid transparent;
+    border-left: 14px solid transparent;
+    border-right: 14px solid transparent;
     border-top: 40px solid var(--navy);
-    filter: drop-shadow(0 3px 6px rgba(0,0,0,0.3));
+    filter: drop-shadow(0 3px 8px rgba(0,0,0,0.35));
     z-index: 20;
   }
 
